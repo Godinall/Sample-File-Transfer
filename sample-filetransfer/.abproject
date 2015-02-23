@@ -3,7 +3,6 @@
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "AppIdentifier": "com.telerik.samplefiletransfer",
   "ProjectName": "sample-filetransfer",
-  "IsRunnable": "true",
   "AndroidPermissions": [
     "android.permission.ACCESS_COARSE_LOCATION",
     "android.permission.ACCESS_FINE_LOCATION",
@@ -33,7 +32,6 @@
   ],
   "AndroidVersionCode": "1",
   "AndroidHardwareAcceleration": "false",
-  "iOSBackgroundMode": [],
   "FrameworkVersion": "3.5.0",
   "CorePlugins": [
     "org.apache.cordova.camera",
@@ -56,8 +54,6 @@
   "WP8ProductID": "{8e41db67-fdfa-4ee8-8bf8-62100c2dd8b7}",
   "WP8PublisherID": "{57098cf3-14c0-476e-9971-ddcd04541fc3}",
   "WP8Publisher": "",
-  "WP8Capabilities": [],
-  "WP8Requirements": [],
   "CordovaPluginVariables": {
     "com.telerik.mobiletesting": {
       "IOS_APP_URL": ""
