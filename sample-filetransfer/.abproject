@@ -50,8 +50,6 @@
 	"Description": "sample-filetransfer",
 	"Framework": "Cordova",
 	"WP8TileTitle": "",
-	"WP8ProductID": "{8e41db67-fdfa-4ee8-8bf8-62100c2dd8b7}",
-	"WP8PublisherID": "{57098cf3-14c0-476e-9971-ddcd04541fc3}",
 	"WP8Publisher": "",
 	"CordovaPluginVariables": {
 		"com.telerik.mobiletesting": {
