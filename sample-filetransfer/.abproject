@@ -40,13 +40,18 @@
 		"org.apache.cordova.inappbrowser",
 		"org.apache.cordova.splashscreen"
 	],
-	"DisplayName": "sample-filetransfer",
+	"DisplayName": "File-transfer",
 	"WP8SupportedResolutions": [
 		"ID_RESOLUTION_WVGA",
 		"ID_RESOLUTION_WXGA",
 		"ID_RESOLUTION_HD720P"
 	],
 	"Author": "",
+	"WP8Publisher": "",
+	"WP8TileTitle": "",
+	"WP8Capabilities": [],
+	"iOSBackgroundMode": [],
+	"WP8Requirements": [],
 	"Description": "sample-filetransfer",
 	"Framework": "Cordova",
 	"WP8TileTitle": "",
