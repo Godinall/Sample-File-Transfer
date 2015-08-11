@@ -42,9 +42,9 @@
 	],
 	"DisplayName": "File-transfer",
 	"WP8SupportedResolutions": [
+		"ID_RESOLUTION_HD720P",
 		"ID_RESOLUTION_WVGA",
-		"ID_RESOLUTION_WXGA",
-		"ID_RESOLUTION_HD720P"
+		"ID_RESOLUTION_WXGA"
 	],
 	"Author": "",
 	"WP8Publisher": "",
@@ -54,12 +54,14 @@
 	"WP8Requirements": [],
 	"Description": "sample-filetransfer",
 	"Framework": "Cordova",
-	"WP8TileTitle": "",
-	"WP8Publisher": "",
 	"CordovaPluginVariables": {
 		"com.telerik.mobiletesting": {
 			"IOS_APP_URL": ""
 		}
 	},
-	"projectVersion": 1
+	"projectVersion": 1,
+	"WP8PublisherID": "{a82d8f9a-1733-4d7f-8e7e-47c3c4c3180e}",
+	"WP8ProductID": "{0ddd9826-88d5-4b84-8e5e-432a0a974d1f}",
+	"WP8PackageIdentityName": "1234Telerik.com.telerik.samplefiletransfer",
+	"WP8WindowsPublisherName": "CN=Telerik"
 }
