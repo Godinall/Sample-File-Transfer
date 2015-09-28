@@ -1,0 +1,7 @@
+title: File Transfer
+slug: sample-file-transfer
+page_title: Apache Cordova File Transfer Sample | Telerik Platform
+description: This sample shows you how to use the FileSystem and the File Transfer Apache Cordova core plugins to download and upload files to the Internet.
+tags: Apache Cordova, core, file, file system, download file, iOS, Android, Windows Phone
+publish: true
+content_filter: true
