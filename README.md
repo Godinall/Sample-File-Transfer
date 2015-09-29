@@ -1,6 +1,6 @@
 File Transfer
 ===================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-file-transfer" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-file-transfer" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-file-transfer" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://raw.githubusercontent.com/Icenium/sample-file-transfer" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
 <a id="top"></a>
 * [Overview](#overview)
@@ -36,7 +36,7 @@ This sample shows how to use the following objects and methods of the [FileSyste
 
 Platform | Home
 ---|---
-All | ![](https://github.com/Icenium/sample-file-transfer/blob/master/screenshots/home.png)
+All | ![](https://raw.githubusercontent.com/Icenium/sample-file-transfer/master/screenshots/home.png)
 
 [Back to Top](#top)
 
