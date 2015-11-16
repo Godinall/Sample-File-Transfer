@@ -5,3 +5,4 @@ description: This sample shows you how to use the FileSystem and the File Transf
 tags: Apache Cordova, core, file, file system, download file, iOS, Android, Windows Phone
 publish: true
 content_filter: true
+apis: cordova.fileSystem cordova.fileTransfer cordova.fileTransfer.download
