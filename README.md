@@ -1,10 +1,9 @@
 File Transfer
 ===================
-<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-file-transfer" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  <a href="https://github.com/Icenium/sample-file-transfer" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/samples/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-file-transfer" target="_blank"><img src="http://docs.telerik.com/platform/samples/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>  
 
 <a id="top"></a>
 * [Overview](#overview)
-* [Showcased APIs](#showcased-apis)
 * [Screenshots](#screenshots)
 * [Test the Sample](#test-the-sample)
 * [Limitations](#limitations)
@@ -16,19 +15,6 @@ This sample shows you how to use the FileSystem and the File Transfer core plugi
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0
-
-[Back to Top](#top)
-
-# Showcased APIs
-
-This sample shows how to use the following objects and methods of the [FileSystem API][FileSystem API] and the [File Transfer API][File Transfer API].
-
-* **fileTransfer:** Lets you upload and download files from a server.
-* **fileTransfer.download():** Downloads a file from a server.
-* **localFileSystem:** Obtains root file systems.
-* **windows.requestFileSystem():** Request a file system.
-* **directoryEntry.getDirectory():** Creates or look ups a directory.
-* **file.fullPath:** The full path of a file, including the file name.
 
 [Back to Top](#top)
 
@@ -159,6 +145,4 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 [QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
 [USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
 [emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
-[FileSystem API]: http://plugins.cordova.io/#/package/org.apache.cordova.file
-[File Transfer API]: http://plugins.cordova.io/#/package/org.apache.cordova.file-transfer
 [Simulate File Storage]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/simulate-file-storage
