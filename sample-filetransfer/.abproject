@@ -30,15 +30,16 @@
 		"2"
 	],
 	"AndroidVersionCode": "1",
-	"AndroidHardwareAcceleration": "false",
-	"FrameworkVersion": "3.7.0",
+	"AndroidHardwareAcceleration": "true",
+	"FrameworkVersion": "4.0.0",
 	"CorePlugins": [
-		"org.apache.cordova.camera",
-		"org.apache.cordova.device",
-		"org.apache.cordova.file",
-		"org.apache.cordova.file-transfer",
-		"org.apache.cordova.inappbrowser",
-		"org.apache.cordova.splashscreen"
+		"cordova-plugin-camera",
+		"cordova-plugin-device",
+		"cordova-plugin-file",
+		"cordova-plugin-file-transfer",
+		"cordova-plugin-inappbrowser",
+		"cordova-plugin-splashscreen",
+		"cordova-plugin-whitelist"
 	],
 	"DisplayName": "File-transfer",
 	"WP8SupportedResolutions": [
