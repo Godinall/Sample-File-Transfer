@@ -15,7 +15,11 @@ var downloadApp = function() {
 }
 
 downloadApp.prototype = {
-	run: function(uri, fileName, folderName) {
+
+    rst: null,
+
+    run: function (uri, fileName, folderName) {
+        rst = document.getElementById("result");
 		var that = this,
 			filePath = "";
         
@@ -77,10 +81,10 @@ downloadApp.prototype = {
 				image.src = targetPath;
 				image.style.display = "block";
 				image.display = targetPath;
-				document.getElementById("result").innerHTML = "File saved to: " + targetPath;
+				rst.innerHTML = "File saved to: " + targetPath;
 			},
 			function(error) {
-				document.getElementById("result").innerHTML = "An error has occurred: Code = " + error.code;
+			    rst.innerHTML = "An error has occurred: Code = " + error.code;
 				console.log("download error source " + error.source);
 				console.log("download error target " + error.target);
 				console.log("upload error code" + error.code);
@@ -88,11 +92,12 @@ downloadApp.prototype = {
 			);
 	},
 	
-	uploadFile: function() {
+	uploadFile: function () {
+	    rst.innerHTML = "";
 		navigator.camera.getPicture(
 			uploadPhoto,
 			function(message) {
-				alert('Failed to get a picture');
+			    rst.innerHTML = "Failed to get a picture. Please select one.";
 			}, {
 				quality         : 50,
 				destinationType : navigator.camera.DestinationType.FILE_URI,
@@ -114,8 +119,10 @@ downloadApp.prototype = {
 				Connection: "Close"
 			};
 			options.chunkedMode = false;
-            
+
 			var ft = new FileTransfer();
+
+			rst.innerHTML = "Upload in progress...";
 			ft.upload(
 				fileURI,
 				encodeURI("http://www.filedropper.com"),
@@ -131,9 +138,9 @@ downloadApp.prototype = {
 				console.log("Link to uploaded file: http://www.filedropper.com" + result.response);
 				var response = result.response;
 				var destination = "http://www.filedropper.com/" + response.substr(response.lastIndexOf('=') + 1);
-				document.getElementById("result").innerHTML = "File uploaded to: " + 
+				rst.innerHTML = "File uploaded to: " +
 															  destination + 
-															  "</br><button onclick=\"window.open('" + destination + "', '_blank', 'location=yes')\">Open Location</button>";
+															  "</br><button class=\"button\" onclick=\"window.open('" + destination + "', '_blank', 'location=yes')\">Open Location</button>";
 				document.getElementById("downloadedImage").style.display="none";
 			}
         
