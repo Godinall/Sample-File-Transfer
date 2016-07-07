@@ -22,7 +22,7 @@ This sample shows you how to use the FileSystem and the File Transfer core plugi
 
 Platform | Home
 ---|---
-All | ![](screenshots/home.png)
+All | ![](https://raw.githubusercontent.com/Icenium/Sample-File-Transfer/master/screenshots/home.png)
 
 [Back to Top](#top)
 
